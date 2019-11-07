@@ -21,7 +21,7 @@ Sign with Netlify.com please
 ### Sub-Sub Header
 
 *italics*
-**bold*
+**bold**
 ***bold italic***
 
 This is a `highlight` for individual words or blocks of text
