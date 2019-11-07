@@ -32,5 +32,5 @@ We can use regular html for images
 
 <img src="https://miro.medium.com/max/3200/1*0KFB17_NGTPB0XWyc4BSgQ.jpeg" width="150" />
 
-We can also <span style="text-decoration: underline"> underline </span> text
+We can also <span style="text-decoration: underline;">underline</span> text
 
