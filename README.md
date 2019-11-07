@@ -34,3 +34,43 @@ We can use regular html for images
 
 We can also <span style="text-decoration: underline;">underline</span> text
 
+### Code Highlighting
+
+```
+int x = 1;
+```
+
+```java
+int x = 1;
+```
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Heads is the meta data -->
+<title>My Page</title>
+<style> 
+/* CSS goes here */
+</style>
+
+</head>
+<body>
+	<nav>
+		
+	</nav>
+<h1> Hello World Web Page</h1>
+<p>Sample web page</p>
+	<script>
+	alert('this is a page');
+	function runThisSometimes(){
+		alert('run this sometimes');
+	}
+	</script>
+	<button onclick="runThisSometimes()">Run This Sometimes</button>
+
+
+</body>
+</html>
+```
+
+
