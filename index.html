@@ -15,12 +15,26 @@
 <h1> Hello World Web Page</h1>
 <p>Sample web page</p>
 	<script>
-	alert('this is a page');
+	//alert('this is a page');
+	var thisIsAGlobalVariable = 22;
+	var myArray = [];
 	function runThisSometimes(){
 		alert('run this sometimes');
+		thisIsAGlobalVariable += 10;
+		console.log(thisIsAGlobalVariable);
+		document.getElementById("putSomeDataHere").innerText=thisIsAGlobalVariable;
+		myArray.push(thisIsAGlobalVariable);
+		console.log(myArray);
+	}
+	console.log(thisIsAGlobalVariable);
+
+	function popFromArray() {
+		myArray.pop();
+		console.log(myArray);
 	}
 	</script>
 	<button onclick="runThisSometimes()">Run This Sometimes</button>
+	<button onclick="popFromArray()">Pop from Array</button>
 	<ul>
 		<li>item</li>
 		<li>item</li>
@@ -31,6 +45,7 @@
 		<li>item</li>
 		<li>item</li>
 	</ol>
+	<div id="putSomeDataHere">Some Data Goes Here</div>
 
 
 </body>
